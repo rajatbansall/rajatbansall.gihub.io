@@ -1,0 +1,29 @@
+@media only screen and (max-width: 740px){
+    .col-container{
+        width: 100%;
+        display: table;
+    }    
+    .col1{
+        display: table-row;
+    }
+    .col2 {
+        display: table-row;/* Make elements insidse the container behave like table cells */
+    }
+    .col-container1 {
+        display: table; /* Make the container element behave like a table */
+        width: 70%; /* Set full-width to expand the whole page */
+    }
+    .port{
+        height: 20%;  
+    }
+    .portfolio{
+        padding-bottom: 30px;
+    }
+    .caption{
+        text-align: center;
+        padding-top: 32%;
+    }
+    .head{
+        height: 100vh;
+    }
+}
