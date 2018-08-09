@@ -1,7 +1,7 @@
 /*jslint browser: true*/
 /*global $, jQuery, alert*/
 $(window).load(function(){
-    var $container = $('.portfolioContainer');
+    var $container = $('.teamPortfolio');
     $container.isotope({
         filter: '*',
         animationOptions: {
@@ -11,8 +11,8 @@ $(window).load(function(){
         }
     });
  
-    $('.portfolioFilter a').click(function(){
-        $('.portfolioFilter .current').removeClass('current');
+    $('.head-about a').click(function(){
+        $('.head-about a .current').removeClass('current');
         $(this).addClass('current');
  
         var selector = $(this).attr('data-filter');
