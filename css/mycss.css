@@ -1,107 +1,220 @@
+/* General CSS */
+$grey = #2C3531;
+$cyan = #116466;
+$skin = #D9B08C;
+$ltskin = #FFCB9A;
+$ltcyan = #D1E8E2;
+
 .head{
     width: 100%; 
-    min-height: 100px;
+    height: 100vh;
     overflow: hidden; /* height:width ratio = 9/16 = .5625  */
+    top: 0;
 }
+
 body{
     font-family: 'Quicksand', sans-serif;
 }
+
 h4{
   font-family: 'Quicksand', sans-serif;
 }
-.about-content{
-    width: 30%;
+
+/* Navigation Bar */
+.mynav:not(.is_stuck){
+    position: fixed;
+    background-color: #2C3531;
+    left: 0;
+    right: 0;
+    opacity: 0.9;
+    z-index: 999;
 }
-.col-container {
-    display: table; /* Make the container element behave like a table */
-    width: 90%; /* Set full-width to expand the whole page */
-    padding-top: 40px;
+
+/* Slider captions */
+.head .slider .slides .cap1{
+    text-align: center;
+    padding-top: 150px;
 }
+.head .slider .slides .cap2{
+    text-align: left;
+    padding-top: 0px;
+}
+.head .slider .slides .cap3{
+    text-align: right;
+    padding-top: 280px;
+}
+
+/*About Us*/
+#about-us .team-board .head-about a{
+    text-shadow: 4px 1px 10px #07616c;
+}
+
+/* Portfolio */
+.work img{
+    text-align: center;
+    margin: 0.3%;
+    width: 20%;
+    height: 10%;
+}
+.portfolio{
+    text-align: center;
+    height: 350px;
+}
+.portfolio h4 {
+    padding-top: 125px;
+}
+
+.portfolioFilter a:focus {
+  outline: none;
+}
+
+.portfolioFilter {
+  padding: 15px 0;
+}
+
+.portfolioFilter a {
+  margin-right: 6px;
+  color: #666;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  padding: 4px 15px;
+  border-radius: 50px;
+  display: inline-block;
+}
+
+.portfolioFilter a.current {
+  background: #2C3531;
+  border: 1px solid #1e1e1e;
+  color: #f9f9f9;
+}
+.portfolioContainer{
+  border: 1px solid #eee;
+  border-radius: 2px;
+  padding-left: 52px;
+  min-height: 100vh;
+}
+.portfolioContainer img {
+  width: 300px;
+  height: 200px;
+  padding: 0px 5px 2px 0px;
+}
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+.isotope,
+.isotope .isotope-item {
+  /* change duration value to whatever you like */
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+  -moz-transition-property: height, width;
+  transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+  -moz-transition-property: -moz-transform, opacity;
+  transition-property: transform, opacity;
+}
+
+
+
+/* Header for All */
+.head-about{
+    padding-top: 90px;
+    text-decoration-style: solid;
+    padding-left: 30px;
+}
+.head-about hr{
+    width: 20px;
+}
+.content{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.content hr{
+    width: 100px;
+}
+
+/* Vertical */
+.vertical{
+    height: 100vh;
+    overflow: hidden;
+}
+
 .col-container1 {
     display: table; /* Make the container element behave like a table */
     width: 90%; /* Set full-width to expand the whole page */
     padding-top: 40px;
 }
 
-.col1 {
-    display: table-cell; /* Make elements insidse the container behave like table cells */
-} 
 .col2 {
-    display: table-cell; /* Make elements insidse the container behave like table cells */
+    display: table-cell; /* Make elements inside the container behave like table cells */
 } 
-.about-us{
-    min-height: 100px;
+.vertical .col-container1 .card{
+    cursor: pointer;
+}
+
+/* Contact Us */
+.contact-us{
     overflow: hidden;
-    padding-bottom: 80px;
-}
-.hd{
-    padding-top: 100px;
-}
-.mynav:not(.is_stuck){
-    position: fixed;
-    left: 0;
-    right: 0;
-    opacity: 0.8;
-    z-index: 999;
-}
-.contain{
-   position: relative;
-   width: 100vw;
-}
-
-.contain ItemImage{
-   width: 100vw;
-}
-
-.contain .OverlayIcon{
-  cursor: pointer;
-  position: absolute;
-  top : 50%;
-  left : 50%;
-  transform: translate(-50%, -50%);
-
-}
-
-svg:hover #play-svg{
-  fill: #CC181E;
-}
-.team{
-    min-height: 100px;
-    overflow: hidden;
-    padding-bottom: 100px; 
-}
-.hd1{
-    padding-top: 100px;
-    max-height: 200px;
-}
-.div-height{
-    max-height: 20px;
-}
-.frm1{
-    padding-left: 100px;
-}
-.head2{
-    width: 100%; 
-    height: 100vh;
-    overflow: hidden; /* height:width ratio = 9/16 = .5625  */
-    min-height: 100px;
+    padding-bottom: 20px;
 }
 .tb1
 {
     padding-top: 20px;
-    width: 40%;
+    width: 450px;
 }
-.head6{
-    width: 100%; 
-    overflow: hidden; /* height:width ratio = 9/16 = .5625  */
-    padding-bottom: 150px;
+.tb1 .frm{
+    padding-top: 40px;
+    padding-left: 40px;
 }
-.team-head{
-    height: 20%;
+
+/*Team*/
+.teamPortfolio .card{
+    margin: 1%;
+    width: 20%;
 }
-.cap-pad1{
-    padding-top: 150px;
+
+/*Partners*/
+.info-partner .parallax-container{
+    height: 300px;
 }
-.cap-pad2{
-    padding-top: 200px;
+.info-partner .parallax-container .carousel-partner{
+    padding-top: 80px;
+}
+.info-partner .parallax-container .heading-partner{
+    padding-top: 80px;
+}
+
+/*Event Board*/
+.event-board{
+    height: 100vh;
+}
+.event-board .event-block .card{
+    display: inline-block;
+    margin: 0.5%;
+    width: 400px;
+}
+.event-board .event-block{
+    padding-top: 50px;
+}
+#button-pos{
+    display: none;
+}
+
+/*Button Floating Color*/
+#about-us .team-board a{
+    color: #116466;
 }

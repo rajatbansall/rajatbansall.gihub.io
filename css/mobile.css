@@ -1,29 +1,136 @@
 @media only screen and (max-width: 740px){
-    .col-container{
-        width: 100%;
-        display: table;
-    }    
-    .col1{
-        display: table-row;
+    .body{
+        width: 100vw;
     }
-    .col2 {
-        display: table-row;/* Make elements insidse the container behave like table cells */
+    /* For Slider Captions */
+    .head .slider .slides .cap1{
+        padding-top: 100px;
     }
+    .head .slider .slides .cap2{
+        text-align: center;
+        padding-top: 100px;
+    } 
+    .head .slider .slides .cap3{
+        text-align: center;
+        padding-top: 100px;
+    }
+    
+    /* For About Us */
+    .head-about{
+        padding-left: 0px;
+    }
+    #about-us .content{
+        padding-left: 0px;
+        width: 95%;
+        padding-left: 30px;
+    }
+    
+    /*Our Team */
+    #about-us .teamPortfolio .card{
+        width: 85%;
+    }
+    #about-us .teamPortfolio{
+        padding-right: 30px;
+    }
+    #about-us .teamPortfolio .card-content span{
+        font-size: 20px;
+    }
+    
+    /*Vertical*/
     .col-container1 {
         display: table; /* Make the container element behave like a table */
-        width: 70%; /* Set full-width to expand the whole page */
+        width: 90%; /* Set full-width to expand the whole page */
+        padding-top: 40px;
     }
-    .port{
-        height: 20%;  
+
+    .col2 {
+        display: table-row; /* Make elements inside the container behave like table cells */
+    } 
+    .vertical{
+        height:auto;
+        overflow: hidden;
     }
+    
+    /*portfolio*/
     .portfolio{
-        padding-bottom: 30px;
+        height: 250px;
     }
-    .caption{
-        text-align: center;
-        padding-top: 32%;
+    .portfolio h4{
+        padding-top: 80px;
     }
-    .head{
-        height: 100vh;
+    .portfolio p{
+        font-size: 12px;
+    }
+    .portfolioFilter a:focus {
+      outline: none;
+    }
+
+    .portfolioFilter {
+      padding: 15px 0px;
+    }
+
+    .portfolioFilter a {
+      margin-right: 2px;
+      color: #666;
+      text-decoration: none;
+      border: 1px solid #ccc;
+      padding: 4px 15px;
+      border-radius: 50px;
+      display: inline-block;
+    }
+
+    .portfolioFilter a.current {
+      background: #1e1e1e;
+      border: 1px solid #1e1e1e;
+      color: #f9f9f9;
+    }
+    .portfolioContainer img{
+        width: 80%;
+        height: 140px;
+    }
+    
+    /*Parallax Container*/
+    .info-partner1 .parallax-container{
+        height: 270px;
+    }
+    .info-partner1 .parallax-container .carousel-partner1{
+        height: 80px;
+    }
+    .info-partner1 .parallax-container .carousel-partner1 .carousel{
+        height: 130px;
+        padding-top: 250px;
+    }
+    .info-partner1 .parallax-container .heading-partner{
+        padding-top: 10px;
+    }
+    .info-partner1 .parallax-container .carousel-partner1 img{
+        width: 80%;
+    }
+    .info-partner1 .parallax-container .button{
+        padding-top: 200px;
+    }
+    
+    /*Event Board */
+    .event-board{
+        height: 100%;
+    }
+    .event-board .event-block .card{
+        display: inline-block;
+        margin: 0.5%;
+        width: 250px;
+    }
+    .event-board .event-block{
+        padding-top: 50px;
+    }
+    
+    /*Contact Us*/
+    .tb1
+    {
+        padding-top: 20px;
+        width: 250px;
+    }
+    .tb1 .frm{
+        padding-top: 40px;
+        padding-left: 20px;
     }
 }
