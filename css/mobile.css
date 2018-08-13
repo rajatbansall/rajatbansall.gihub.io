@@ -5,14 +5,20 @@
     /* For Slider Captions */
     .head .slider .slides .cap1{
         padding-top: 100px;
+        text-shadow: 4px 2px 8px #000000;
+        z-index: 1;
     }
     .head .slider .slides .cap2{
         text-align: center;
         padding-top: 100px;
+        text-shadow: 4px 2px 8px #000000;
+        z-index: 1;
     } 
     .head .slider .slides .cap3{
         text-align: center;
         padding-top: 100px;
+        text-shadow: 4px 2px 8px #000000;
+        z-index: 1;
     }
     
     /* For About Us */
