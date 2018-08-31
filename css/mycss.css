@@ -1,27 +1,26 @@
-/* General CSS */
-.head{
-    width: 100%; 
-    height: 100vh;
-    overflow: hidden; /* height:width ratio = 9/16 = .5625  */
-    top: 0;
-}
-
-body{
-    font-family: 'Roboto Condensed', sans-serif;
-}
-
-h4{
-  font-family: 'Roboto Condensed', sans-serif;
-}
-
 /* Navigation Bar */
 .mynav:not(.is_stuck){
     position: fixed;
     background: linear-gradient(-1800deg,#311b92,#3B5998);
     left: 0;
     right: 0;
-    opacity: 0.9;
+    opacity: 1.0;
     z-index: 999;
+}
+
+/* General CSS */
+body{
+    margin: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 0px;
+}
+.head{
+    margin 0px;
+    width: 100%; 
+    height: 100vh;
+}
+h4{
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 /* Slider captions */
@@ -43,6 +42,12 @@ h4{
     text-shadow: 4px 2px 8px #000000;
     z-index: 1;
 }
+.head .slider .slides .cap4{
+    text-align: left;
+    padding-top: 280px;
+    text-shadow: 4px 2px 8px #000000;
+    z-index: 1;
+}
 
 
 /*About Us*/
@@ -51,6 +56,9 @@ h4{
 }
 .about-color{
     background: linear-gradient(-180deg,#e8eaf6,#ffffff);
+}
+.team-nav{
+    margin: 0px 2px 0px 2px;
 }
 /* Portfolio */
 
@@ -185,6 +193,17 @@ h4{
     cursor: pointer;
 }
 
+/* Process */
+.process{
+    height: 100vh;
+}
+.process-collapsible{
+    width: 90%;
+    padding-left: 10%;
+}
+.process .process-collapsible .collapsible li .collapsible-header i{
+    color:#01579b;
+}
 /* Contact Us */
 .contact-us{
     padding-bottom: 20px;

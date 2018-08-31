@@ -2,21 +2,31 @@
     .body{
         width: 100vw;
     }
+    /* For Navigation Bar */
+    .mob-side-nav{
+        width: 50%;
+    }
     /* For Slider Captions */
     .head .slider .slides .cap1{
-        padding-top: 100px;
+        padding-top: 40%;
         text-shadow: 4px 2px 8px #000000;
         z-index: 1;
     }
     .head .slider .slides .cap2{
         text-align: center;
-        padding-top: 100px;
+        padding-top: 25%;
         text-shadow: 4px 2px 8px #000000;
         z-index: 1;
     } 
     .head .slider .slides .cap3{
         text-align: center;
-        padding-top: 100px;
+        padding-top: 40%;
+        text-shadow: 4px 2px 8px #000000;
+        z-index: 1;
+    }
+      .head .slider .slides .cap4{
+        text-align: center;
+        padding-top: 40%;
         text-shadow: 4px 2px 8px #000000;
         z-index: 1;
     }
@@ -42,6 +52,7 @@
         font-size: 20px;
     }
     
+    
     /*Vertical*/
     .col-container1 {
         display: table; /* Make the container element behave like a table */
@@ -55,6 +66,11 @@
     .vertical{
         height:auto;
         overflow: hidden;
+    }
+    /* Process */
+    .process-collapsible{
+        width: 95%;
+        padding-left: 5%;
     }
     
     /*portfolio*/
@@ -134,9 +150,14 @@
     {
         padding-top: 20px;
         width: 250px;
+        height: auto;
     }
     .tb1 .frm{
         padding-top: 40px;
         padding-left: 20px;
+        height: 350px;
+    }
+     .tb1 .frm .input-field{
+        height: 15px;
     }
 }
