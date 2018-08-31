@@ -48,7 +48,11 @@ $(document).ready(function(){
             } else {
                 document.getElementById("button-pos").style.display = "none";
             }
-        }
+        }   
+    /* Collapsible */
+    $(document).ready(function(){
+        $('.collapsible').collapsible();
+    });
 });
 
         
