@@ -1,6 +1,6 @@
 /*jslint browser: true*/
 /*global $, jQuery, alert*/
-$(window).load(function(){
+$(document).ready(function(){
     var $container = $('.portfolioContainer');
     $container.isotope({
         filter: '*',
@@ -10,20 +10,20 @@ $(window).load(function(){
             queue: false
         }
     });
- 
+
     $('.portfolioFilter a').click(function(){
         $('.portfolioFilter .current').removeClass('current');
         $(this).addClass('current');
- 
+
         var selector = $(this).attr('data-filter');
         $container.isotope({
             filter: selector,
             animationOptions: {
-                duration: 750,
+                duration: 1000,
                 easing: 'linear',
                 queue: false
             }
          });
          return false;
-    }); 
+    });
 });
