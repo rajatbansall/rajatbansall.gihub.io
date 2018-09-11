@@ -17,7 +17,7 @@
         padding-top: 25%;
         text-shadow: 4px 2px 8px #000000;
         z-index: 1;
-    } 
+    }
     .head .slider .slides .cap3{
         text-align: center;
         padding-top: 40%;
@@ -30,7 +30,7 @@
         text-shadow: 4px 2px 8px #000000;
         z-index: 1;
     }
-    
+
     /* For About Us */
     .head-about{
         padding-left: 0px;
@@ -40,7 +40,7 @@
         width: 95%;
         padding-left: 30px;
     }
-    
+
     /*Our Team */
     #about-us .teamPortfolio .card{
         width: 85%;
@@ -51,8 +51,7 @@
     #about-us .teamPortfolio .card-content span{
         font-size: 20px;
     }
-    
-    
+
     /*Vertical*/
     .col-container1 {
         display: table; /* Make the container element behave like a table */
@@ -62,7 +61,7 @@
 
     .col2 {
         display: table-row; /* Make elements inside the container behave like table cells */
-    } 
+    }
     .vertical{
         height:auto;
         overflow: hidden;
@@ -72,7 +71,7 @@
         width: 95%;
         padding-left: 5%;
     }
-    
+
     /*portfolio*/
     .portfolio{
         height: 250px;
@@ -110,7 +109,7 @@
         width: 80%;
         height: 140px;
     }
-    
+
     /*Parallax Container*/
     .info-partner1 .parallax-container{
         height: 270px;
@@ -131,7 +130,7 @@
     .info-partner1 .parallax-container .button{
         padding-top: 200px;
     }
-    
+
     /*Event Board */
     .event-board{
         height: 100%;
@@ -144,7 +143,7 @@
     .event-board .event-block{
         padding-top: 50px;
     }
-    
+
     /*Contact Us*/
     .tb1
     {
