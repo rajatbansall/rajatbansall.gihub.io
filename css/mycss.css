@@ -5,6 +5,7 @@
 /* Startup Modal */
 .modal2{
   padding-top: 20px;
+  height: auto;
 }
 .modal2-head h4{
   color: #3B5998;
