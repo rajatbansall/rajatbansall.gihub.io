@@ -11,7 +11,6 @@ $(document).ready(function(){
     /* Modal in event fixed button */
     $('.modal').modal();
     $('#modal2').modal('open');
-    $('#modal3').modal('open');
 
     /*Partners Carousel*/
     $('.info-partner .parallax-container .carousel-partner .carousel').carousel({fullWidth: true});
