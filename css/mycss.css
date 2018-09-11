@@ -1,3 +1,17 @@
+/*preloader*/
+.loader{
+  padding-top: 250px;
+}
+/* Startup Modal */
+.modal2{
+  padding-top: 20px;
+}
+.modal2-head h4{
+  color: #3B5998;
+}
+.modal2-text{
+  padding-top: 10px;
+}
 /* Navigation Bar */
 .mynav:not(.is_stuck){
     position: fixed;
@@ -16,7 +30,7 @@ body{
 }
 .head{
     margin 0px;
-    width: 100%; 
+    width: 100%;
     height: 100vh;
 }
 h4{
@@ -61,7 +75,19 @@ h4{
     margin: 0px 2px 0px 2px;
 }
 /* Portfolio */
-
+.teamPortfolio .card{
+  height: 330px;
+}
+.teamPortfolio .card .card-image{
+  max-height: 150px;
+}
+.teamPortfolio .card .card-image img{
+  border-radius: 80%;
+  margin-left: 15px;
+  margin-top: 10px;
+  height: 170px;
+  width: 145px;
+}
 .work img{
     text-align: center;
     margin: 0.3%;
@@ -188,7 +214,7 @@ h4{
 
 .col2 {
     display: table-cell; /* Make elements inside the container behave like table cells */
-} 
+}
 .vertical .col-container1 .card{
     cursor: pointer;
 }
